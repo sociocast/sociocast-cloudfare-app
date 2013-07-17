@@ -4,6 +4,10 @@
     "description": "Sociocast application for CloudFlare users.",
     "version": "1.0.0",
     "category": "analytics",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sociocast/sociocast.cloudfare.app.git"
+    },    
     "account": {
         "callback_url": "http://countersback.herokuapp.com/api",
         "user_fields": ["name", "phone", "email"]
