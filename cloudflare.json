@@ -9,7 +9,7 @@
         "url": "https://github.com/sociocast/sociocast.cloudfare.app.git"
     },    
     "account": {
-        "callback_url": "http://countersback.herokuapp.com/api",
+        "callback_url": "http://www.sociocast.com/cf",
         "user_fields": ["name", "phone", "email"]
     },
     "billing": {
@@ -29,9 +29,9 @@
         "details":{
             "Category": "CloudFlare App example",
             "Language": "English",
-            "Price": "Free to install.",
+            "Price": "30 Day Free Trial.",
             "Restrictions": "None",
-            "CloudFlare": "<a href='http://www.cloudflare.com/terms' target='_blank'>Terms of use</a>"
+            "CloudFlare": "<a href='http://corp.sociocast.com/term-of-use/' target='_blank'>Terms of use</a>"
         },
         "assets":{
             "logos" : {
@@ -44,31 +44,6 @@
             "images" : [
                 "./public/images/counter.png"
             ]
-        },
-        "interface": [
-            {
-                "type": "string",
-                "name": "Favorite Food",
-                "description": "Please tell us your favorite food.",
-                "id": "food",
-                "domain_request": true
-            },
-            {
-                "id": "lottery",
-                "type": "select",
-                "name": "Do you Lotto?",
-                "description": "Choose whether to buy a ticket",
-                "options": [
-                    {
-                        "label": "Yes, buy a ticket!",
-                        "value": "true"
-                    },
-                    {
-                        "label": "No, I am scared.",
-                        "value": ""
-                    }
-                ]
-            }
-        ]
+        }
     }
 }
