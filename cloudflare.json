@@ -10,7 +10,7 @@
     },    
     "account": {
         "callback_url": "http://www.sociocast.com/cf",
-        "user_fields": ["name", "phone", "email"]
+        "user_fields": ["email"]
     },
     "billing": {
         "type": "domain",
