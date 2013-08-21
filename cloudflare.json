@@ -16,12 +16,20 @@
         "type": "domain",
         "plans":[
             {
-                "name" : "Chowder",
-                "price": "3.20"
+                "name" : "Startup",
+                "price": "39.00"
             },
             {
-                "name" : "Minestrone",
-                "price" : "6.55"
+                "name" : "Business",
+                "price": "129.00"
+            },
+            {
+                "name" : "Growth",
+                "price": "599.00"
+            },
+            {
+                "name" : "Enterprise",
+                "price" : "1999.00"
             }
         ]
     },
