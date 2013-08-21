@@ -35,11 +35,11 @@
     },
     "config":{
         "details":{
-            "Category": "CloudFlare App example",
             "Language": "English",
-            "Price": "30 Day Free Trial.",
+            "Price": "30 Day Free Trial. Required plan depends on traffic to your website. Growth and Enterprise plans include phone support (all include email support).",
             "Restrictions": "None",
-            "CloudFlare": "<a href='http://corp.sociocast.com/term-of-use/' target='_blank'>Terms of use</a>"
+			"TOS":"http://corp.sociocast.com/term-of-use/",
+			"has_js":true
         },
         "assets":{
             "logos" : {
