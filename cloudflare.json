@@ -56,25 +56,25 @@
         "interface":[
             {
                 "type": "string",
-				"id": "name",
-				"name": "Your Name",
-				"description": "Please tell us your name.",
-				"domain_request": true
-			},
+                "id": "name",
+                "name": "Your Name",
+                "description": "Please tell us your name.",
+                "domain_request": true
+            },
             {
                 "type": "string",
-				"id": "phone",
-				"name": "Phone Number",
-				"description": "Please tell us your phone number.",
-				"domain_request": true
-			},
+                "id": "phone",
+                "name": "Phone Number",
+                "description": "Please tell us your phone number.",
+                "domain_request": true
+            },
             {
                 "type": "hidden",
-				"id": "client_id",
-				"name": "Client ID",
-				"value": "",
-				"domain_request": true
-			}
+                "id": "client_id",
+                "name": "Client ID",
+                "value": "",
+                "domain_request": true
+            }
         ]
     }
 }
