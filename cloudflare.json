@@ -1,5 +1,5 @@
 {
-    "main":"public/javascripts/countersback.js",
+    "main":"public/javascripts/sociocast.js",
     "name":"Sociocast",
     "description": "Sociocast application for CloudFlare users.",
     "version": "1.0.0",
