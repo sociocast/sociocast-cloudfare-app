@@ -42,6 +42,14 @@
 			"has_js":true
         },
         "assets":{
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            },
+            "detail_page" : [
+            ],
+            "images" : [
+            ]
         },
         "interface":[
             {
