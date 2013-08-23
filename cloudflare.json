@@ -2,7 +2,7 @@
     "main":"public/javascripts/sociocast.js",
     "name":"Sociocast",
     "description": "Sociocast application for CloudFlare users.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "category": "analytics",
     "repository": {
         "type": "git",
