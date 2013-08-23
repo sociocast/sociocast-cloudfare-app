@@ -40,6 +40,7 @@ end
 @server = 'localhost'
 @port = '8080'
 @accountId = 100938
+@secret = ""
 
 optparse = OptionParser.new do | opts |
   opts.banner = "Usage: #{File.basename($0)}"
@@ -59,6 +60,15 @@ optparse = OptionParser.new do | opts |
   opts.on("-a", "--account accountId", "CloudFlare account ID") do | i |
     @accountId = i
   end
+  
+  opts.on("-k", "--secret key", "CloudFlare App secret key") do | i |
+    secret = i
+  end
+end
+
+if (@secret == "")
+  puts "You must specify the secret key with -k"
+  exit 1
 end
 
 baseUrl = "http://localhost:8080/cf/accounts/#{@accountId}/login"
