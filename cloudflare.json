@@ -47,6 +47,8 @@
                 "132px": "./public/images/logo-132.png"
             },
             "detail_page" : [
+                "./public/images/main.png",
+                "./public/images/pricing.png"
             ],
             "images" : [
             ]
