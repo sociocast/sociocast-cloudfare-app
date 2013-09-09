@@ -9,7 +9,7 @@
         "url": "https://github.com/sociocast/sociocast.cloudfare.app.git"
     },    
     "account": {
-        "callback_url": "http://www-test.sociocast.com/cf",
+        "callback_url": "http://www.sociocast.com/cf",
         "user_fields": ["email"]
     },
     "billing": {
