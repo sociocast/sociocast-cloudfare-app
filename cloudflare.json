@@ -1,7 +1,7 @@
 {
     "main":"public/javascripts/sociocast.js",
     "name":"Sociocast",
-    "description": "Sociocast is a real time web site visitor personalization platform Ñ Increase engagement and revenue by up to 500%. Deliver the optimal experience to each of your visitors every time!",
+    "description": "Sociocast is an easy-to-install, real-time website personalization platform. In just a few minutes, you can drive upwards of 500% lift in engagement, conversion, and revenue.",
     "version": "0.1.2",
     "category": "analytics",
     "repository": {
@@ -36,7 +36,7 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "30 Day Free Trial. Required plan depends on traffic to your website. Growth and Enterprise plans include phone support (all include email support).",
+            "Price": "Every plan comes with a 30-day free trial. Growth and Enterprise plans include phone support (all include email support).",
             "Restrictions": "None",
 			"TOS":"http://corp.sociocast.com/term-of-use/",
 			"has_js":true
@@ -58,14 +58,14 @@
                 "type": "string",
                 "id": "name",
                 "name": "Your Name",
-                "description": "Please tell us your name.",
+                "description": "Please give us your full name.",
                 "domain_request": true
             },
             {
                 "type": "string",
                 "id": "phone",
                 "name": "Phone Number",
-                "description": "Please tell us your phone number.",
+                "description": "Please give us your phone number.",
                 "domain_request": true
             },
             {
