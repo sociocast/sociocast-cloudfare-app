@@ -65,7 +65,7 @@
                 "type": "string",
                 "id": "phone",
                 "name": "Phone Number",
-                "description": "Please give us your phone number.",
+                "description": "(Optional) Please give us your phone number. Leave blank if you don't want to be contacted by phone.",
                 "domain_request": true
             },
             {
