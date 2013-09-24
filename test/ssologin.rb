@@ -10,8 +10,8 @@ SECRET = "1234" # TODO find out correct secret
 
 # Returns the base-64 encoded HMAC SHA256 hash
 def sign(message)
-  hash = OpenSSL::HMAC.digest('sha256', SECRET, message)
-  Base64.encode64(hash)
+  hash = OpenSSL::HMAC.hexdigest('sha256', SECRET, message)
+  hash
 end
 
 def login(baseUrl)
@@ -62,8 +62,16 @@ optparse = OptionParser.new do | opts |
   end
   
   opts.on("-k", "--secret key", "CloudFlare App secret key") do | i |
-    secret = i
+    @secret = i
   end
+end
+
+begin 
+  optparse.parse! ARGV
+rescue OptionParser::InvalidOption => e
+  puts e
+  puts optparse
+  exit 1
 end
 
 if (@secret == "")
