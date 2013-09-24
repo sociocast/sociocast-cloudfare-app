@@ -36,7 +36,7 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Each plan comes with a 30-day free trial. Growth and Enterprise plans include phone support (all include email support).",
+            "Price": "Choose a plan depending on your monthly traffic: $39 Startup, $129 Business, $599 Growth, $1999 Enterprise. Please see app description for details.",
             "Restrictions": "None",
 			"TOS":"http://corp.sociocast.com/term-of-use/",
 			"has_js":true
