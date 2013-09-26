@@ -17,6 +17,6 @@ It has never been easier to make your customers feel like your website was built
 Pricing
 -------
 
-Sociocast offers a selection of different plans to meet the needs of your growing business. Each plan comes with a **free 30-day trial**.
+Sociocast offers a selection of different plans to meet the needs of your growing business.
 
 ![Sociocast Pricing](/images/apps/sociocast/pricing.png "Sociocast Pricing")
