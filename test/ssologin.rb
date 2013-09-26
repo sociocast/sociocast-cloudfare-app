@@ -1,16 +1,13 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby -w
 
-require 'base64'
 require 'openssl'
 require 'optparse'
 require 'net/http'
 require 'uri'
 
-SECRET = "1234" # TODO find out correct secret
-
 # Returns the base-64 encoded HMAC SHA256 hash
 def sign(message)
-  hash = OpenSSL::HMAC.hexdigest('sha256', SECRET, message)
+  hash = OpenSSL::HMAC.hexdigest('sha256', @secret, message)
   hash
 end
 
