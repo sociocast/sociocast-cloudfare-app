@@ -76,6 +76,6 @@ if (@secret == "")
   exit 1
 end
 
-baseUrl = "http://localhost:8080/cf/accounts/#{@accountId}/login"
+baseUrl = "http://#{@server}:#{@port}/cf/accounts/#{@accountId}/login"
 
 login(baseUrl)
