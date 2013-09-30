@@ -59,14 +59,16 @@
                 "id": "name",
                 "name": "Your Name",
                 "description": "Please give us your full name.",
-                "domain_request": true
+                "domain_request": true,
+                "private": true
             },
             {
                 "type": "string",
                 "id": "phone",
                 "name": "Phone Number",
                 "description": "(Optional) Please give us your phone number. Leave blank if you don't want to be contacted by phone.",
-                "domain_request": true
+                "domain_request": true,
+                "private": true
             },
             {
                 "type": "hidden",
