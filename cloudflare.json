@@ -16,6 +16,10 @@
         "type": "domain",
         "plans":[
             {
+                "name" : "Trial",
+                "price": "4.99"
+            },
+            {
                 "name" : "Startup",
                 "price": "39.00"
             },
@@ -36,7 +40,7 @@
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Choose a plan depending on your monthly traffic: $39 Startup, $129 Business, $599 Growth, $1999 Enterprise. Please see app description for details.",
+            "Price": "Choose a plan depending on your monthly traffic: $4.99 Trial, $39 Startup, $129 Business, $599 Growth, $1999 Enterprise. Please see app description for details.",
             "Restrictions": "None",
 			"TOS":"http://corp.sociocast.com/term-of-use/",
 			"has_js":true
@@ -48,7 +52,7 @@
             },
             "detail_page" : [
                 "./public/images/main.png",
-                "./public/images/pricing.png"
+                "./public/images/pricing-20131002.png"
             ],
             "images" : [
             ]

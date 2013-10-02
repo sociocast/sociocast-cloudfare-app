@@ -19,4 +19,4 @@ Pricing
 
 Sociocast offers a selection of different plans to meet the needs of your growing business.
 
-![Sociocast Pricing](/images/apps/sociocast/pricing.png "Sociocast Pricing")
+![Sociocast Pricing](/images/apps/sociocast/pricing-20131002.png "Sociocast Pricing")
