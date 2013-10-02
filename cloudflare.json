@@ -2,7 +2,7 @@
     "main":"public/javascripts/sociocast.js",
     "name":"Sociocast",
     "description": "Sociocast is an easy-to-install, real-time website personalization platform. In just a few minutes, you can drive upwards of 500% lift in engagement, conversion, and revenue.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "category": "analytics",
     "repository": {
         "type": "git",
