@@ -76,6 +76,10 @@ if (@secret == "")
   exit 1
 end
 
-baseUrl = "http://#{@server}:#{@port}/cf/accounts/#{@accountId}/login"
+if ( @port == '80' )
+  baseUrl = "http://#{@server}/cf/accounts/#{@accountId}/login"
+else
+  baseUrl = "http://#{@server}:#{@port}/cf/accounts/#{@accountId}/login"
+end
 
 login(baseUrl)
